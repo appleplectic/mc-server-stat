@@ -53,10 +53,6 @@ async def get_ping(ctx):
     except socket.gaierror:
         await ctx.send('Server is not online.')
 
-@client.command(name='fuckyou')
-async def fu(ctx):
-    await ctx.send('Fucking is not enabled on this server.')
-
 @client.command(name='players')
 async def get_players(ctx):
     server = JavaServer(SERVER_IP, int(SERVER_PORT))
@@ -76,10 +72,6 @@ async def get_players(ctx):
 
     except socket.gaierror:
         await ctx.send('Server is not online.')
-
-@client.command(name='e')
-async def e(ctx):
-    await ctx.send('ur mom')
 
 @client.listen()
 async def on_ready():
