@@ -1,6 +1,14 @@
 # MC Server Status Discord Bot
 Small Python script to get the status of a Minecraft server and modify two channel names to reflect the number of players online.
 
+Online:
+
+![image](https://github.com/user-attachments/assets/6386f75c-127b-40ba-b015-4c00be69cca8)
+
+Offline:
+
+![image](https://github.com/user-attachments/assets/b350ad31-f2bb-4627-97bc-845198b823c2)
+
 
 ## Usage
 First, install the requirements:
